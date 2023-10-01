@@ -5,6 +5,7 @@ imparti (2 heures).
 
 ### Todo
 
+- [ ] Développement des tests unitaires
 - [ ] Améliorer le design de la page (design tres minimaliste a cause du temps)
 - [ ] S'assurer de la continuité des valeurs
 - [ ] Ajouter un champ permettant de fixer (force) un taux de change
