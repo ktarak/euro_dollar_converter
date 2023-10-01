@@ -1,0 +1,18 @@
+<div class="wrraper">
+  <div class="container">
+    <h1>{{title}}</h1>
+    <div class="form-group">
+      <div class="input_bloc">
+        <label>Euro :</label>
+        <input type="number" name="euro" (change)="euroToDollar()" [(ngModel)]="euro">
+      </div>
+      <div class="input_bloc">
+        <label>Dollar :</label>
+        <input type="number" name="dollar" (change)="dollarToEuro()" [(ngModel)]="dollar">
+      </div>
+    </div>
+    <label>Taux de change:</label>
+    {{rate}}
+  </div>
+</div>
+
